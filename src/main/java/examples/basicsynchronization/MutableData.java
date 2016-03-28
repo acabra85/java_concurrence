@@ -1,7 +1,5 @@
 package examples.basicsynchronization;
 
-import examples.basicsynchronization.background.MyBackgroundThread;
-
 import java.util.concurrent.TimeUnit;
 
 /**

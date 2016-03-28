@@ -1,7 +1,5 @@
 package examples.basicsynchronization;
 
-import examples.basicsynchronization.MutableData;
-
 /**
  * Created by Agustin on 3/28/2016.
  */
