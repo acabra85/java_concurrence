@@ -16,9 +16,7 @@ public class MyBackgroundThread implements Runnable {
     public void run() {
         System.out.println("2. Background Thread started");
         int i = 0;
-        while(!mutableData.isStopRequested()) {
-            i++;
-        }
+        while(!mutableData.isStopRequested()) i++;
         System.out.println(String.format("2. Background Thread finished: Achieved %d iterations!", i));
     }
 }
