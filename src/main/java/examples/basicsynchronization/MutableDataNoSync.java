@@ -1,6 +1,4 @@
-package examples.basicsynchronization.nosync;
-
-import examples.basicsynchronization.MutableData;
+package examples.basicsynchronization;
 
 /**
  * This example provides no synchronization, for that matter, the background thread is not able

@@ -1,6 +1,4 @@
-package examples.basicsynchronization.fullsynchronized;
-
-import examples.basicsynchronization.MutableData;
+package examples.basicsynchronization;
 
 /**
  * Here the communication and mutual exclusion are guaranteed since the modification to the variable STOP_REQUESTED

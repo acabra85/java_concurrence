@@ -1,6 +1,4 @@
-package examples.basicsynchronization.commsync;
-
-import examples.basicsynchronization.MutableData;
+package examples.basicsynchronization;
 
 /**
  * Here only communication is synchronized since reading variable value provides

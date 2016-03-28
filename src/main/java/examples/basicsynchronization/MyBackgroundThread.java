@@ -1,4 +1,4 @@
-package examples.basicsynchronization.background;
+package examples.basicsynchronization;
 
 import examples.basicsynchronization.MutableData;
 
@@ -13,6 +13,10 @@ public class MyBackgroundThread implements Runnable {
         this.mutableData = mutableData;
     }
 
+    /**
+     * The termination on this method is constrained by the implementation of the method isStopRequested
+     * if no synchronization is provided this method may run endlessly.
+     */
     public void run() {
         System.out.println("2. Background Thread started");
         int i = 0;
